@@ -27,15 +27,16 @@
             android:layout_height="match_parent"
             android:layout_gravity="left"
             android:text="@string/increasee"
-            style="?android:attr/buttonBarButtonStyle" />
+            />
 
         <Button
+            android:id="@+id/tint"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:padding="30dp"
             android:text="@string/add_to_listt"
-            style="?android:attr/buttonBarButtonStyle" />
+            />
 
         <Button
             android:layout_width="wrap_content"
@@ -43,7 +44,7 @@
 
             android:padding="30dp"
             android:text="@string/random"
-            style="?android:attr/buttonBarButtonStyle" />
+     />
 
 
     </LinearLayout>
