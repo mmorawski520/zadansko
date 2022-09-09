@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">zadansko</string>
+    <string name="clear_list">clear list</string>
+    <string name="random">random</string>
+    <string name="hash_to_image">hash to image</string>
+    <string name="todo">TODO</string>
+    <string name="randomm">random :</string>
+    <string name="increase">increase :</string>
+    <string name="increasee">increase</string>
+    <string name="add_to_listt">Add to list</string>
 </resources>

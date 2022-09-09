@@ -26,21 +26,24 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="left"
-            android:text="increase" />
+            android:text="@string/increasee"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="right"
             android:padding="30dp"
-            android:text="Add to list" />
+            android:text="@string/add_to_listt"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
 
             android:padding="30dp"
-            android:text="random" />
+            android:text="@string/random"
+            style="?android:attr/buttonBarButtonStyle" />
 
 
     </LinearLayout>
@@ -61,14 +64,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="increase : "
+            android:text="@string/increase"
             android:textAlignment="center"></TextView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:textAlignment="center"
-            android:text="random : "
+            android:text="@string/randomm"
             ></TextView>
         <ListView
             android:layout_width="match_parent"
@@ -96,27 +99,32 @@
           android:gravity="center"
           android:padding="10dp"
           >
+
           <Button
+              style="?android:attr/buttonBarButtonStyle"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="clear list"
               android:layout_margin="5dp"
               android:backgroundTint="#f00"
-              ></Button>
+              android:text="@string/clear_list"
+              android:textColor="#000000"></Button>
+
           <Button
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_margin="5dp"
-              android:text="hash to image"
               android:backgroundTint="#0f0"
-              ></Button>
+              android:text="@string/hash_to_image"
+              android:textColor="#616161"
+              style="?android:attr/buttonBarButtonStyle"></Button>
       </LinearLayout>
 
         <ImageView
             android:layout_width="180dp"
             android:layout_height="180dp"
 
-            tools:srcCompat="@tools:sample/avatars[3]" />
+            tools:srcCompat="@tools:sample/avatars[3]"
+            android:contentDescription="@string/todo" />
     </LinearLayout>
 
 
